@@ -1,0 +1,308 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "PoppinsRegular", sans-serif;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+.header{
+    position: fixed;
+    padding: 20px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9;
+    box-shadow: -21.213px 21.213px 30px 0px rgba(158,158,158,0.3);
+}
+.head-links{
+    float: right;
+    position: relative;
+    right: 60px;
+}
+
+.containHamburger{
+    display: none;
+    float: right;
+    position: relative;
+    right: 60px
+}
+.hamburger{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.link{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+.link:hover{
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(12, 143, 12);
+    transition: 0.8s;
+}
+.container1{
+    min-height: 600px;
+    width: 100%;
+    background-image: url('../pics/d.jpg');
+    background-SIZE: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 60px;
+}
+.container1 h1{
+    font-size: 2.3em;
+    font-family: "Poppins";
+    color: white;
+}
+.containWrap{
+    width: 70%;
+    position: relative;
+    top: 300px;
+    left: 30px;
+    padding: 10px 15px;
+}
+.containWrap span{
+    background-color: white;
+    color: black;
+    padding: 0px 8px;
+}
+.button{
+    margin-top: 20px;
+    position: relative;
+}
+.button a{
+    
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 8px 25px;
+    border: 2px solid white;
+}
+.button a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 500px;
+    position: relative;
+    top: 60px;
+    padding-top: 60px;
+}
+.section1{
+    display: inline-block;
+    width: 40%;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+.heading1,.para1,.para{
+    display: inline-block;
+}
+.heading1{
+    font-family: "Poppins";
+    font-size: 2.3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.para1{
+    font-size: 1.4em;
+    margin-bottom: 23px;
+}
+.container2 img{
+    margin-left: 100px;
+}
+.button2{
+    border: 2px solid black !important;
+    color: black !important;
+}
+.button2:hover{
+    background-color: black !important;
+    color: white !important;
+}
+.container3{
+    min-height: 500px;
+    padding: 30px 0px;
+    position: relative;
+    top: 60px;
+}
+#projects{
+    display: block;
+    text-align: center;
+}
+.para3{
+    width: 52%;
+    margin: 0px auto;
+    font-size: 1.4em;
+    margin-bottom: 23px;
+    text-align: center;
+}
+.section2{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.projext{
+    width: 320px;
+    margin: 20px 30px;
+}
+.container4{
+    min-height: 300px;
+    background-image: url("../pics/dd.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 60px;
+    padding: 60px 0px 10px 0px;
+}
+#volunteer{
+    display: block;
+    color: white;
+    text-align: center;
+}
+.section3{
+    margin-top: 30px;
+}
+.container5{
+    min-height: 500px;
+    position: relative;
+    top: 60px;
+    padding: 60px 0px 30px 0px;
+}
+#donate{
+    display: block;
+    color: black;
+    text-align: center;
+}
+.form{
+    width: 40%;
+    margin: 50px auto 20px auto;
+}
+.input{
+    height: 50px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+#name,#email,#message,#ammount{
+    width: 100%;
+    line-height: 30px;
+    padding: 10px;
+    font-size: 1em;
+    outline: none;
+    font-family: "PoppinsRegular";
+}
+.input1{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.accept{
+    text-align: center;
+}
+.footer{
+    min-height: 50px;
+    position: relative;
+    top: 60px;
+    padding: 60px 0px 10px 0px;
+    background-color: black;
+    text-align: center;
+}
+i{
+    margin: 5px;
+    cursor: pointer;
+}
+.design{
+    color: white;
+    margin: 10px 0px;
+}
+.button3{
+    position: relative;
+    left:420px;
+}
+
+
+@media only screen and (max-width: 426px){
+    .containHamburger{
+        display: inline;
+    }
+    .button3{
+        left: 0px;
+    }
+    .head-links{
+        display: none!important;
+    }
+    .container2 img{
+        margin: 0px;
+        width:100%;
+    }
+    .section1{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .para3{
+        width: 90%;
+        font-size: 1.3em;
+    }
+    .container4{
+        padding: 0px;
+        padding: 30px 0px 50px 0px;
+    }
+    .container1{
+        padding-bottom: 40px;
+    }
+    .form{
+        width: 100%;
+    }
+    .input,.input1{
+        width: 95%;
+    }
+    #name, #email, #message, #ammount{
+        width: 95%;
+    }
+    .center{
+        text-align: center;
+    }
+}
